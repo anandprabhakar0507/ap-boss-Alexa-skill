@@ -1,0 +1,52 @@
+
+
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "alien ap",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "bring me some fact",
+                        "bring me a fact",
+                        "speak something",
+                        "tell me something",
+                        "give me a fact",
+                        "throw a fact",
+                        "say a fact",
+                        "tell me a fact",
+                        "example",
+                        "point",
+                        "fact",
+                        "say something",
+                        "speak up",
+                        "start speaking"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
