@@ -24,30 +24,18 @@
                     "samples": []
                 },
                 {
-                    "name": "GetNewFactIntent",
-                    "slots": [],
-                    "samples": [
-                        "a fact",
-                        "a space fact",
-                        "tell me a fact",
-                        "tell me a space fact",
-                        "give me a fact",
-                        "give me a space fact",
-                        "tell me trivia",
-                        "tell me a space trivia",
-                        "give me trivia",
-                        "give me a space trivia",
-                        "give me some information",
-                        "give me some space information",
-                        "tell me something",
-                        "give me something",
-                        "bring me a fact"
-                    ]
-                },
-                {
                     "name": "GetFactIntent",
                     "slots": [],
                     "samples": [
+                        "you are going lazy common speak now",
+                        "speak more",
+                        "tell me more",
+                        "go go go",
+                        "speak now",
+                        "just speak up",
+                        "common speak now",
+                        "tell me something interesting",
+                        "tell a fact",
                         "tell me a story",
                         "tell me a point",
                         "speak up",
