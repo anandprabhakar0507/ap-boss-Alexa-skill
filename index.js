@@ -6,11 +6,6 @@
 const Alexa = require('alexa-sdk');
 
 const FACTS = [
-"Let me tell you about someone named Anand prabhakar.He is a student,web developer,data scientist and an active programmer..
-he learns and practices html,css,js,python,java,go,sql,node-json,bootstrap,jquery and php..
-and he loves exploring new things.",
-"Earth is the only known planet till now that have life and we are very lucky that we belong from earth..The whole earth is family",
-"i am going to tell you a fact spoken by saige valmiki in ramayan,Mother and motherland is more great than the heaven",
 "I am going to tell you a fact from bhagvad geeta spoken by lord krishna in mahabharata
 yada yada hi dharmasya,
 glanir bhavti bhartah,
@@ -19,14 +14,13 @@ tadaatmaanam srijanyahamm,
 paritranaay saadhunaam vinaashay cha dushkritaam,
 dharma sansthapnaarthya,
 sambhavaami yuge yuge!!
-
 means  
-
 god says that whenever there is an occurence of lust,cheating, violence on earth then
-i come again and again and destroy all those bad evils and establish a fresh and pure life again on earth.",
-"Do you know than i am made using a serverless application at lambda arn..and i can also be configured in echo dot devices 
-i am amazon alexa..
-i am the live example of artificial intelligence.",
+i come again and again and destroy all those bad evils and establish a fresh and pure life again on earth",
+"Let me tell you about someone named Anand prabhakar.He is a student,web developer,data scientist and an active programmer he learns and practices html,css,js,python,java,go,sql,node-json,bootstrap,jquery and php and he loves exploring new things",
+"Do you know than i am made using a serverless application at lambda arn..and i can also be configured in echo dot devices i am amazon alexa i am the live example of artificial intelligence",
+"i am going to tell you a fact spoken by saige valmiki in ramayan,Mother and motherland is more great than the heaven",
+"Earth is the only known planet till now that have life and we are very lucky that we belong from earth..The whole earth is family",
 ];
 
 const SKILL_NAME = 'My School Facts';
@@ -70,7 +64,7 @@ const handlers = {
 
 exports.handler = function (event, context, callback) {
   const alexa = Alexa.handler(event, context, callback);
-  alexa.appId = "amzn1.ask.skill.14963fbd-a20a-4891-b6c4-eed2de9f27f6";
+  alexa.appId = "amzn1.ask.skill.b71d9e6d-0e93-4fcd-8c4a-187ceda51652";
   alexa.registerHandlers(handlers);
   alexa.execute();
 };
