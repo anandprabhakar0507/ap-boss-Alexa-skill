@@ -1,9 +1,7 @@
-
-
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "alien ap",
+            "invocationName": "ap boss",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -26,23 +24,44 @@
                     "samples": []
                 },
                 {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "a fact",
+                        "a space fact",
+                        "tell me a fact",
+                        "tell me a space fact",
+                        "give me a fact",
+                        "give me a space fact",
+                        "tell me trivia",
+                        "tell me a space trivia",
+                        "give me trivia",
+                        "give me a space trivia",
+                        "give me some information",
+                        "give me some space information",
+                        "tell me something",
+                        "give me something",
+                        "bring me a fact"
+                    ]
+                },
+                {
                     "name": "GetFactIntent",
                     "slots": [],
                     "samples": [
-                        "bring me some fact",
-                        "bring me a fact",
-                        "speak something",
-                        "tell me something",
-                        "give me a fact",
-                        "throw a fact",
-                        "say a fact",
-                        "tell me a fact",
-                        "example",
-                        "point",
-                        "fact",
-                        "say something",
+                        "tell me a story",
+                        "tell me a point",
                         "speak up",
-                        "start speaking"
+                        "start speaking",
+                        "point",
+                        "example",
+                        "tell me a fact",
+                        "say a fact",
+                        "throw a fact",
+                        "tell me something",
+                        "bring me a fact",
+                        "fact",
+                        "speak something",
+                        "bring me some fact"
                     ]
                 }
             ],
