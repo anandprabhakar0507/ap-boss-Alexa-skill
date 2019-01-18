@@ -57,6 +57,167 @@ alexa ask a. p. boss speak fact
 alexa ask a. p. boss speak point
 alexa ask a. p. boss speak up fact
 
+also try 
+"intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "leave that fact",
+                        "shut up",
+                        "cancel the fact",
+                        "cancel",
+                        "come back again",
+                        "come back ",
+                        "stop now",
+                        "kindly stop",
+                        "please stop",
+                        "please stop that",
+                        "don't do that",
+                        "dont do that ",
+                        "don't",
+                        "dont ",
+                        "leave the fact",
+                        "leave that ",
+                        "return back",
+                        "sorry"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help help help",
+                        "help help",
+                        "can you help me",
+                        "please help",
+                        "help me",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "dangerous",
+                        "its annoying",
+                        "its painful",
+                        "this is boring",
+                        "oh just stop it",
+                        "can you stop now",
+                        "will you please stop",
+                        "stop it now",
+                        "just stop it",
+                        "will you please shut up ",
+                        "leave now",
+                        "quit",
+                        "null",
+                        "kill",
+                        "kill it",
+                        "shut up",
+                        "stop now",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "go home",
+                        "return home",
+                        "come back",
+                        "come home quickly",
+                        "tired now",
+                        "i am tired ",
+                        "go to your home",
+                        "oh leave",
+                        "common home now",
+                        "go home now",
+                        "go to home",
+                        "back home",
+                        "back to home",
+                        "home",
+                        "come home",
+                        "come back home"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": [
+                        "awwww",
+                        "awww",
+                        "aw",
+                        "aww",
+                        "awww...",
+                        "ono",
+                        "oh no",
+                        "auch",
+                        "ahh",
+                        "oh",
+                        "oho"
+                    ]
+                },
+                {
+                    "name": "GetFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "higher",
+                        "high",
+                        "soar",
+                        "soar now",
+                        "go more ",
+                        "grow up ",
+                        "more fact",
+                        "more facts",
+                        "more",
+                        "tell",
+                        "words",
+                        "ask",
+                        "those words",
+                        "awesome words",
+                        "great work",
+                        "great ",
+                        "get to the work now",
+                        "get to work now",
+                        "get to the work ",
+                        "get to work",
+                        "get me point",
+                        "get me some fact",
+                        "get me fact",
+                        "dangerous quote",
+                        "dangerous",
+                        "awesome quote",
+                        "awesome",
+                        "come back from home",
+                        "back from home",
+                        "come back again",
+                        "come back to work",
+                        "work now",
+                        "work ",
+                        "back to work",
+                        "you are going lazy common speak now",
+                        "speak more",
+                        "tell me more",
+                        "go go go",
+                        "speak now",
+                        "just speak up",
+                        "common speak now",
+                        "tell me something interesting",
+                        "tell a fact",
+                        "tell me a story",
+                        "tell me a point",
+                        "speak up",
+                        "start speaking",
+                        "point",
+                        "example",
+                        "tell me a fact",
+                        "say a fact",
+                        "throw a fact",
+                        "tell me something",
+                        "bring me a fact",
+                        "fact",
+                        "speak something",
+                        "bring me some fact"
+                    ]
+                }
+            ],
+
 
 try it..
 
