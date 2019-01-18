@@ -1,19 +1,51 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "ap boss",
+            "invocationName": "a. p. boss",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
-                    "samples": []
+                    "samples": [
+                        "cancel the fact",
+                        "cancel",
+                        "come back home",
+                        "come back again",
+                        "come back ",
+                        "stop now",
+                        "kindly stop",
+                        "please stop",
+                        "please stop that",
+                        "don't do that",
+                        "dont do that ",
+                        "don't",
+                        "dont ",
+                        "leave the fact",
+                        "leave that ",
+                        "return back",
+                        "sorry"
+                    ]
                 },
                 {
                     "name": "AMAZON.HelpIntent",
-                    "samples": []
+                    "samples": [
+                        "help help help",
+                        "help help",
+                        "can you help me",
+                        "please help",
+                        "help me",
+                        "help"
+                    ]
                 },
                 {
                     "name": "AMAZON.StopIntent",
-                    "samples": []
+                    "samples": [
+                        "null",
+                        "kill",
+                        "kill it",
+                        "shut up",
+                        "stop now",
+                        "stop"
+                    ]
                 },
                 {
                     "name": "AMAZON.NavigateHomeIntent",
